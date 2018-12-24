@@ -1,0 +1,26 @@
+{
+    "name": "spartaques/friends-package",
+    "authors": [
+        {
+            "name": "Andriy Bashuk",
+            "email": "96andlgrac@gmail.com"
+        }
+    ],
+    "require": {
+        "spatie/laravel-tags": "^2.2",
+        "spatie/laravel-permission": "^2.29"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spartaques\\FriendsPackage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Spartaques\\FriendsPackage\\FriendshipsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
