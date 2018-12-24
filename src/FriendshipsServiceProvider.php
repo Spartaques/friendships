@@ -1,12 +1,10 @@
 <?php
 
-
 namespace Spartaques\FriendsPackage;
-
 
 use Illuminate\Support\ServiceProvider;
 
-class FriendsServiceProvider extends ServiceProvider
+class FriendshipsServiceProvider extends ServiceProvider
 {
     public function boot()
     {
